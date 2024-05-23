@@ -1,0 +1,94 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0%;
+}
+
+body{
+    background-image: url(background.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.containernero{
+    width: 1050px;
+    height: 670px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+/* - - - sezione header - - - */
+.logo{
+    width: 20%;
+    display: block;
+    margin: auto;
+    padding-top: 60px;
+}
+
+header > h2{
+    color:rgb(0, 221, 0);
+    font-weight: 500;
+    text-align: center;
+}
+
+/* - - - sezione nav - - - */
+.greenbox{
+    background-color:rgb(0, 221, 0);
+    height: 25px;
+    width: 850px;
+    padding: 6px;
+    text-align: center;
+    margin: auto;
+}
+
+/* - - - sezione main - - - */
+
+.contenitoreinfo{
+    width: 850px;
+    text-align: left;
+    margin: auto;
+}
+
+.contenitoreinfo >span{
+    display: block;
+    font-size: small;
+}
+
+.utente{
+    font-weight: 500;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+/* simboli */
+.via:before{
+    content: "\21A6";
+}
+
+.trattino:after{
+    content: "\2010";
+}
+
+/* grafico batteria */
+.chargebox{
+    height: 25px;
+    border-radius: 5px;
+}
+.chargebox.gino{
+    background-color: rgb(245, 180, 83);
+    width: 270px;
+}
+
+.chargebox.mike{
+    background-color: rgb(30, 195, 30);
+    width: 540px;
+}
+
+.chargebox.fede{
+    background-color: rgb(190, 65, 65);
+    width: 120px;
+}
